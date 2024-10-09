@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     private bool canJump = false;
     private bool canDoubleJump = false;
     [SerializeField] int speed = 0;
-
+    
     // Start is called before thes first frame update
     void Start()
     {
