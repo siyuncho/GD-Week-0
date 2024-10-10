@@ -21,7 +21,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         //rb.velocity = movementVector;
-        rb.velocity = new Vector2(speed*rb.velocity.x,rb.velocity.y);
+        rb.velocity = new Vector2(speed*movementVector.x,rb.velocity.y);
     }
 
     void OnMove(InputValue value)
